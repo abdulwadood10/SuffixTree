@@ -19,9 +19,9 @@ Ukkonen's algorithm is used for the construction of the Suffix Tree.
 
 create an object of SuffixTree class which takes a string as a parameter.
 
-    string 'aaabasdaxca'
+    string = 'aaabasdaxca'
 
-    s = SuffixTree(string)
+    s = SuffixTree(string) 
 
 then perform the follwing functions.
 
