@@ -17,15 +17,23 @@ test.txt file.
 
 Ukkonen's algorithm is used for the construction of the Suffix Tree.
 
+create an object of SuffixTree class which takes a string as a parameter.
+
+    string 'aaabasdaxca'
+
+    s = SuffixTree(string)
+
+then perform the follwing functions.
+
 For applications we have used the following functions:
 
-- def find_substring(self,str:substring) --> returns index of substring in string. returns -1 if not found 
+    def find_substring(self,str:substring) --> returns index of substring in string. returns -1 if not found 
+    
+    def has_substring(self,str:substring):bool --> returns True if the given substring is found else returns -1
 
-- def has_substring(self,str:substring):bool --> returns True if the given substring is found else returns -1
+    def lcs(self,str:T) --> returns the longest common substring in the Suffix Tree 
 
-- def lcs(self,str:T) --> returns the longest common substring in the Suffix Tree 
-
-- def get_repeated_substrings(self) --> returns total occurrences of the repeated substrings
+    def get_repeated_substrings(self) --> returns total occurrences of the repeated substrings
 
 Application
 ----------
