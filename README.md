@@ -19,8 +19,10 @@ Finding the longest common substring. O(nm)
 
 Group Members
 ------------
-Abdul Wadood 18b-026-cs(B)
-Maarij Ahmed 18b-056-cs(B)
-Rohaib Khan 18b-118-cs(B)
+- Abdul Wadood 18b-026-cs(B)
+
+- Maarij Ahmed 18b-056-cs(B)
+
+- Rohaib Khan 18b-118-cs(B)
 
 
