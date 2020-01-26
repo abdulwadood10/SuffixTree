@@ -14,7 +14,9 @@ Assuming n  is the length of  T  and m  is the length of P, then the cons
 Application
 ----------
 String search, in O(m) complexity, where m is the length of the sub-string. 
+
 Finding the longest repeated substring. O(n)
+
 Finding the longest common substring. O(nm)
 
 Group Members
