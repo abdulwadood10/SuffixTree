@@ -10,6 +10,22 @@ By using Ukkonen’s algorithm, a suffix tree can be built in linear time and sp
 
 Assuming n  is the length of  T  and m  is the length of P, then the construction time and   space complexity of the suffix tree are both O (n ), which allows the given query string (pattern) P of length m to be queried in O (m ) time.
 
+How to use
+----------
+There is a separate file for test cases where different test cases is begin used for the functions and the input is taken from the 
+test.txt file.
+
+Ukkonen's algorithm is used for the construction of the Suffix Tree.
+
+For applications we have used the following functions:
+
+- def find_substring(self,str:substring) --> returns index of substring in string. returns -1 if not found 
+
+- def has_substring(self,str:substring):bool --> returns True if the given substring is found else returns -1
+
+- def lcs(self,str:T) --> returns the longest common substring in the Suffix Tree 
+
+- def get_repeated_substrings(self) --> returns total occurrences of the repeated substrings
 
 Application
 ----------
