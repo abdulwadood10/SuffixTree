@@ -1,23 +1,26 @@
 Suffix Trees in Python
 ================================
 
-Based off of Mark Nelson's C++ implementation of Ukkonen's algorithm. Ukkonen's
-algorithm gives a O(n) + O(k) contruction time for a suffix tree, where n is 
-the length of the string and k is the size of the alphabet of that string. 
-Ukkonen's is an online algorithm, processing the input sequentially and producing 
-a valid suffix tree at each character.
+A suffix tree  is a compressed trie containing all the suffixes of the given text as their keys and positions in the text as their values. Suffix trees allow particularly fast implementations of many important string operations. Suffix tries natural way to store a string search, count occurrences, and many other queries answerable easily.
 
-How to use
+
+Ukkonen's Algorithm
 ----------
+By using Ukkonen’s algorithm, a suffix tree can be built in linear time and space.
 
-	string = "I need to be searched!"
-    tree = SuffixTree(string)
-	index_of_need = tree.find_substring("need")
+Assuming n  is the length of  T  and m  is the length of P, then the construction time and   space complexity of the suffix tree are both O (n ), which allows the given query string (pattern) P of length m to be queried in O (m ) time.
 
-Usage note
+
+Application
 ----------
+String search, in O(m) complexity, where m is the length of the sub-string. 
+Finding the longest repeated substring. O(n)
+Finding the longest common substring. O(nm)
 
-This library is mostly an academic exercise. 
-If you need an efficient library
-I would recommend a python-wrapped c implementation, 
-such as [this one](http://www.daimi.au.dk/~mailund/suffix_tree.html).
+Group Members
+------------
+Abdul Wadood 18b-026-cs(B)
+Maarij Ahmed 18b-056-cs(B)
+Rohaib Khan 18b-118-cs(B)
+
+
